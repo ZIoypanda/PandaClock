@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - PandaClock.exe
+      - VERSION
       - .github/workflows/publish-release.yml
 
 permissions:
@@ -22,11 +23,13 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          if gh release view v1.0.0 >/dev/null 2>&1; then
-            gh release upload v1.0.0 PandaClock.exe --clobber
+          VERSION="$(cat VERSION)"
+          TAG="v${VERSION}"
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release upload "$TAG" PandaClock.exe --clobber
           else
-            gh release create v1.0.0 PandaClock.exe \
-              --title "PandaClock 1.0.0" \
-              --notes "Первый публичный релиз PandaClock." \
+            gh release create "$TAG" PandaClock.exe \
+              --title "PandaClock ${VERSION}" \
+              --notes "Обновление PandaClock ${VERSION}." \
               --latest
           fi
