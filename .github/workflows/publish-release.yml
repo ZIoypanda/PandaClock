@@ -1,0 +1,32 @@
+name: Publish PandaClock Release
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - PandaClock.exe
+      - .github/workflows/publish-release.yml
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout release files
+        uses: actions/checkout@v4
+
+      - name: Create or update release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh release view v1.0.0 >/dev/null 2>&1; then
+            gh release upload v1.0.0 PandaClock.exe --clobber
+          else
+            gh release create v1.0.0 PandaClock.exe \
+              --title "PandaClock 1.0.0" \
+              --notes "Первый публичный релиз PandaClock." \
+              --latest
+          fi
