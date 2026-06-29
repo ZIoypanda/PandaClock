@@ -7,6 +7,7 @@ on:
     paths:
       - PandaClock.exe
       - VERSION
+      - PATCH_NOTES.md
       - .github/workflows/publish-release.yml
 
 permissions:
@@ -26,10 +27,14 @@ jobs:
           VERSION="$(cat VERSION)"
           TAG="v${VERSION}"
           if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release edit "$TAG" \
+              --title "PandaClock ${VERSION}" \
+              --notes-file PATCH_NOTES.md \
+              --latest
             gh release upload "$TAG" PandaClock.exe --clobber
           else
             gh release create "$TAG" PandaClock.exe \
               --title "PandaClock ${VERSION}" \
-              --notes "Обновление PandaClock ${VERSION}." \
+              --notes-file PATCH_NOTES.md \
               --latest
           fi
