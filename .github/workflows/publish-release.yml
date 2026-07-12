@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - PandaClock.exe
+      - PandaClockUpdater.exe
       - VERSION
       - PATCH_NOTES.md
       - .github/workflows/publish-release.yml
@@ -33,9 +34,9 @@ jobs:
               --title "PandaClock ${VERSION}" \
               --notes-file PATCH_NOTES.md \
               --latest
-            gh release upload "$TAG" PandaClock.exe --clobber
+            gh release upload "$TAG" PandaClock.exe PandaClockUpdater.exe --clobber
           else
-            gh release create "$TAG" PandaClock.exe \
+            gh release create "$TAG" PandaClock.exe PandaClockUpdater.exe \
               --title "PandaClock ${VERSION}" \
               --notes-file PATCH_NOTES.md \
               --latest

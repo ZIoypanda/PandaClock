@@ -1,1 +1,2 @@
 PandaClock.exe filter=lfs diff=lfs merge=lfs -text
+PandaClockUpdater.exe filter=lfs diff=lfs merge=lfs -text
