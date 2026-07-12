@@ -19,6 +19,8 @@ jobs:
     steps:
       - name: Checkout release files
         uses: actions/checkout@v4
+        with:
+          lfs: true
 
       - name: Create or update release
         env:
