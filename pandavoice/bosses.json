@@ -1,0 +1,222 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "target": "Kaldrix",
+      "animation_id": 1806560,
+      "network_opcode": "0938",
+      "name": "Вперёд-назад"
+    },
+    {
+      "target": "Kaldrix",
+      "animation_id": 1806560,
+      "network_opcode": "0238",
+      "name": "Вперёд-назад"
+    },
+    {
+      "target": "Kaldrix",
+      "animation_id": 1806566,
+      "network_opcode": "0238",
+      "name": "Рывок за спину"
+    },
+    {
+      "target": "Kaldrix",
+      "animation_id": 1806740,
+      "network_opcode": "0938",
+      "name": "Рывок за спину"
+    },
+    {
+      "target": "Kaldrix",
+      "animation_id": 1806740,
+      "network_opcode": "0238",
+      "name": "Рывок за спину"
+    },
+    {
+      "target": "Kaldrix",
+      "animation_id": 1806505,
+      "network_opcode": "0238",
+      "name": "Тройной"
+    },
+    {
+      "target": "Kaldrix",
+      "animation_id": 1806551,
+      "network_opcode": "0938",
+      "name": "Рывок в центр"
+    },
+    {
+      "target": "Kaldrix",
+      "animation_id": 1806540,
+      "network_opcode": "0938",
+      "name": "Цифры"
+    },
+    {
+      "target": "Kaldrix",
+      "animation_id": 1806540,
+      "network_opcode": "0238",
+      "name": "Цифры"
+    },
+    {
+      "target": "Kaldrix",
+      "animation_id": 1806640,
+      "network_opcode": "0938",
+      "name": "Глаз"
+    },
+    {
+      "target": "Kaldrix",
+      "animation_id": 1806640,
+      "network_opcode": "0238",
+      "name": "Глаз"
+    },
+    {
+      "target": "Kaldrix",
+      "animation_id": 1806562,
+      "network_opcode": "0938",
+      "name": "Вперёд-назад"
+    },
+    {
+      "target": "Kaldrix",
+      "animation_id": 1806600,
+      "network_opcode": "0938",
+      "name": "Луч"
+    },
+    {
+      "target": "Kaldrix",
+      "animation_id": 1806600,
+      "network_opcode": "0238",
+      "name": "Луч"
+    },
+    {
+      "target": "Kaldrix",
+      "animation_id": 1806590,
+      "network_opcode": "0938",
+      "name": "Луч"
+    },
+    {
+      "target": "Kaldrix",
+      "animation_id": 1806590,
+      "network_opcode": "0238",
+      "name": "Луч"
+    },
+    {
+      "target": "Kaldrix",
+      "animation_id": 1806580,
+      "network_opcode": "0938",
+      "name": "Луч"
+    },
+    {
+      "target": "Kaldrix",
+      "animation_id": 1806580,
+      "network_opcode": "0238",
+      "name": "Луч"
+    },
+    {
+      "target": "Kaldrix",
+      "animation_id": 1806563,
+      "network_opcode": "0938",
+      "name": "Вперёд-назад"
+    },
+    {
+      "target": "Kaldrix",
+      "animation_id": 1806670,
+      "network_opcode": "0238",
+      "name": "Пицца"
+    },
+    {
+      "target": "Kaldrix",
+      "animation_id": 1806620,
+      "network_opcode": "0938",
+      "name": "Футбол"
+    },
+    {
+      "target": "Kaldrix",
+      "animation_id": 1806620,
+      "network_opcode": "0238",
+      "name": "Футбол"
+    },
+    {
+      "target": "Kaldrix",
+      "animation_id": 1806566,
+      "network_opcode": "0638",
+      "name": "Рывок за спину"
+    },
+    {
+      "target": "Kaldrix",
+      "animation_id": 1806510,
+      "network_opcode": "0638",
+      "name": "Рывок в центр"
+    },
+    {
+      "target": "Kaldrix",
+      "animation_id": 1806520,
+      "network_opcode": "0638",
+      "name": "Рывок в центр"
+    },
+    {
+      "target": "Kaldrix",
+      "animation_id": 1806530,
+      "network_opcode": "0638",
+      "name": "Луч"
+    },
+    {
+      "target": "Kaldrix",
+      "animation_id": 1806540,
+      "network_opcode": "0638",
+      "name": "Луч"
+    },
+    {
+      "target": "Kaldrix",
+      "animation_id": 1806580,
+      "network_opcode": "0638",
+      "name": "Луч"
+    },
+    {
+      "target": "Kaldrix",
+      "animation_id": 1806590,
+      "network_opcode": "0638",
+      "name": "Луч"
+    },
+    {
+      "target": "Kaldrix",
+      "animation_id": 1806600,
+      "network_opcode": "0638",
+      "name": "Луч"
+    },
+    {
+      "target": "Kaldrix",
+      "animation_id": 1806740,
+      "network_opcode": "0638",
+      "name": "Луч"
+    },
+    {
+      "target": "Kaldrix",
+      "animation_id": 1792009,
+      "network_opcode": "2B38",
+      "name": "Тройной"
+    },
+    {
+      "target": "Kaldrix",
+      "animation_id": 1806505,
+      "network_opcode": "0638",
+      "name": "Тройной"
+    },
+    {
+      "target": "Kaldrix",
+      "animation_id": 1806610,
+      "network_opcode": "0638",
+      "name": "Тройной"
+    },
+    {
+      "target": "Kaldrix",
+      "animation_id": 1806640,
+      "network_opcode": "0338",
+      "name": "Глаз"
+    },
+    {
+      "target": "Kaldrix",
+      "animation_id": 1806640,
+      "network_opcode": "0638",
+      "name": "Глаз"
+    }
+  ]
+}
+
